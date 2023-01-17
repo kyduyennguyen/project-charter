@@ -1,0 +1,133 @@
+@media screen and (max-width: 850px) and (min-width: 600px) {
+  /* hide title navbar */
+  .navbar-title {
+    display: none;
+    text-decoration: none;
+  }
+
+  .nav-info,
+  .nav-info .bi {
+    font-size: medium;
+  }
+
+  .nav-info .row {
+    width: 100%;
+  }
+
+  .nav-link .p-2 {
+    padding: 0;
+  }
+
+  .navbar-list .col-4 {
+    margin: 0;
+    padding: 0;
+    width: 10px;
+  }
+
+  .navbar-list .col-2,
+  .navbar-list .col-sm-2 {
+    width: 160px;
+    padding: 0;
+  }
+
+  /* set border of navbar */
+  .nav-info {
+    border-bottom: 1px solid #b7b7b7;
+  }
+  .navbar-list .col-border-1 {
+    border-left: 1px solid #b7b7b7;
+  }
+  .navbar-list .col-border-2 {
+    border-left: 1px solid #b7b7b7;
+    border-right: 1px solid #b7b7b7;
+  }
+  .navbar-list .col-border-3 {
+    border-right: 1px solid #b7b7b7;
+  }
+
+  /* Set size and style for 2 columns in information section */
+  .info-target,
+  .info-personal {
+    width: 600px;
+    height: 600px;
+  }
+  .information .py-3 {
+    padding: 15px 0;
+  }
+
+  .information .gap-3 {
+    gap: 0.5rem !important;
+  }
+
+  .info-target h3 {
+    text-align: center;
+  }
+  .info-target p {
+    text-align: justify;
+  }
+
+  /* Set center align for icon of Information */
+  .info-icon {
+    text-align: center;
+  }
+
+  /* Set width for column */
+  .job-information .col-md-4 {
+    width: 355px;
+  }
+
+  /* Set gap for job-information section */
+  .job-information .gap-4 {
+    gap: 0.5rem !important;
+  }
+
+  /* Set width for images of certification */
+  .certification .img-cert {
+    width: 200px;
+  }
+
+  .certification .detail-cert {
+    padding-top: 15px;
+    width: 100%;
+  }
+
+  /* Set posotion and alignment for certifications */
+  .certification .col-md-4 {
+    align-items: center;
+  }
+  .certification .prf-cert {
+    margin-left: 10px;
+  }
+
+  /* Set width for colum of Project section */
+  .project .project-table {
+    border: 1px solid #b7b7b7;
+    width: 220px;
+  }
+
+  .title-proj a {
+    font-size: medium;
+  }
+
+  .title-proj a:hover {
+    color: #256d84;
+    cursor: pointer;
+  }
+
+  /* set width images for project */
+  .img-proj img {
+    width: 194px;
+  }
+
+  /* Custom project section */
+  .project-table .h4 {
+    font-size: medium;
+    line-height: 1.2;
+  }
+  .title-bar .col-md-12 {
+    padding: 5px 20px;
+  }
+  .detail-project td {
+    padding: 10px 0;
+  }
+}

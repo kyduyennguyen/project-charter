@@ -1,0 +1,187 @@
+@media (max-width: 600px) {
+  /* hide title navbar */
+  .navbar-title {
+    display: none;
+    text-decoration: none;
+  }
+
+  /* Navbar */
+  .nav-info {
+    font-size: smaller;
+  }
+  .nav-info .row {
+    width: 100%;
+  }
+
+  .nav-info .container {
+    padding: 0;
+  }
+
+  .navbar-list {
+    display: block;
+  }
+
+  .nav-info .row,
+  .navbar-list .col-2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: start;
+  }
+
+  .navbar-list .col-4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* delete border of navbar */
+  .nav-info {
+    border-bottom: none;
+  }
+
+  .navbar-list .col-border-1,
+  .navbar-list .col-border-2,
+  .navbar-list .col-border-3 {
+    border-left: none;
+    border-right: none;
+  }
+
+  /* Set size and style for 2 columns in information section */
+  .information .gap-3 {
+    gap: 0rem !important;
+  }
+
+  .info-target {
+    width: 600px;
+    height: 450px;
+  }
+
+  .info-personal {
+    width: 600px;
+    height: 400px;
+  }
+
+  .info-target p,
+  .info-personal .info-list {
+    margin: 0 20px;
+  }
+
+  .information .p-5 {
+    padding: 1.5rem !important;
+  }
+
+  .info-target .pb-4,
+  .info-personal .pb-4 {
+    padding-bottom: 0.5rem !important;
+  }
+  .information h3 {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  /* Set center align for icon of Information */
+  .info-icon {
+    text-align: center;
+  }
+
+  /* Set gap for job informations section */
+  .job-information .gap-4 {
+    gap: 0 !important;
+  }
+
+  /* Create border for column of job information section */
+  .job-information .col-sm {
+    border-bottom: 2px solid #b7b7b7;
+    width: 600px;
+  }
+
+  .job-information .col-sm:first-child {
+    border-top: 1px solid #b7b7b7;
+    width: 600px;
+  }
+
+  .container-lang .job-detail,
+  .container-skill .job-detail {
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  /* Create border for certifications */
+  .certification .cert-border {
+    border-bottom: 1px solid #b7b7b7;
+  }
+
+  .certification .web-cert {
+    border-right: none;
+  }
+
+  .certification .col-sm {
+    padding: 0;
+    margin: 0;
+  }
+  .certification .detail-cert {
+    align-items: center;
+    padding: 20px 0 20px 20px;
+  }
+
+  /* set width for images of certifications */
+  .certification .img-cert {
+    width: 300px;
+  }
+
+  /* Set width for colum of Project section */
+  .project .project-table {
+    border-top: 1px solid #b7b7b7;
+    border-bottom: 1px solid #b7b7b7;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  /* set width images for project */
+  .img-proj img {
+    width: 375px;
+  }
+
+  /* Custom project section */
+  .project-table .h4 {
+    font-size: large;
+  }
+  .title-bar .col-md-12 {
+    padding: 5px 20px;
+  }
+  .detail-project td {
+    padding: 10px;
+  }
+  .project .gap-4 {
+    gap: 1rem !important;
+  }
+
+  .title-bar .col-md-12 {
+    padding: 5px 20px;
+  }
+
+  /* disable and hidden footer link titles */
+  .footer-link {
+    display: none;
+  }
+  .footer .col-sm {
+    width: 20%;
+  }
+  .title-proj a {
+    padding-left: 10px;
+  }
+}
+
+/* For Samsung ZFold phone */
+@media (max-width: 300px) {
+  .info-target {
+    width: 600px;
+    height: 650px;
+  }
+
+  .info-personal {
+    width: 600px;
+    height: 400px;
+  }
+}

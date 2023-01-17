@@ -1,0 +1,245 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.info-personal ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Job Information */
+/* create style dot and time for title job */
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #009eff;
+  display: inline-block;
+  border: 4px solid #fff;
+}
+.content-job {
+  padding-left: 20px;
+}
+.content-job p {
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+.time {
+  margin: 10px auto;
+  padding-left: 20px;
+}
+
+#present {
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: #009eff;
+  color: #fff;
+}
+
+/* Border for icon of hobbies */
+.icon-hobbies .border-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #256d84;
+  display: inline-block;
+}
+
+.icon-hobbies .border-icon i {
+  font-size: 32px;
+  align-items: center;
+  text-align: center;
+}
+
+/* Create point for languages and skills */
+.point-blue {
+  background-color: #009eff;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.point-grey {
+  background-color: #aebdca;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* Create border for certifications */
+.certification .cert-border {
+  border-bottom: 1px solid #b7b7b7;
+}
+
+.certification .web-cert {
+  border-right: 1px solid #b7b7b7;
+}
+
+/* Create border for tables of Project section */
+table {
+  border-top: 1px solid #b7b7b7;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #b7b7b7;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+/* custom for time of project */
+.time-proj {
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: #009eff;
+  color: #fff;
+}
+
+/* Set size for icon on Footer section */
+.footer i {
+  width: 100%;
+}
+
+/* set action for tag <a> */
+a:hover {
+  color: #009eff;
+  cursor: pointer;
+}
+
+/* Set for screen laptop or larger 850px */
+@media (min-width: 850px) {
+  /* custom style text */
+  .navbar-title {
+    display: block;
+    text-decoration: none;
+  }
+
+  .navbar-title .h3 {
+    text-transform: uppercase;
+  }
+
+  .nav-info .container {
+    margin: 10px auto;
+  }
+  .nav-info .row {
+    width: 100%;
+  }
+
+  /* set border of navbar */
+  .nav-info {
+    border-bottom: 1px solid #b7b7b7;
+  }
+
+  .navbar-list .col-border-1 {
+    border-left: 1px solid #b7b7b7;
+  }
+  .navbar-list .col-border-2 {
+    border-left: 1px solid #b7b7b7;
+    border-right: 1px solid #b7b7b7;
+  }
+  .navbar-list .col-border-3 {
+    border-right: 1px solid #b7b7b7;
+  }
+
+  /* Set size and style for 2 columns in information section */
+  .info-target,
+  .info-personal {
+    width: 600px;
+    height: 400px;
+  }
+
+  .info-target h3 {
+    text-align: right;
+  }
+  .info-target p {
+    text-align: justify;
+  }
+
+  /* Set width for column */
+  .job-information .col-lg-3 {
+    width: 400px;
+  }
+
+  /* Set width for colum of Project section */
+  .project .project-table {
+    width: 420px;
+    height: 650px;
+    border: 1px solid #b7b7b7;
+  }
+
+  .title-proj a {
+    padding-left: 10px;
+  }
+
+  .title-proj a:hover {
+    color: #256d84;
+    cursor: pointer;
+  }
+
+  /* set width images for project */
+  .img-proj img {
+    width: 394px;
+  }
+
+  /* custom for project charter */
+  /* create border for it */
+  .proj-chart .col-lg-9 {
+    border: 10px solid #009eff;
+    border-right: 5px solid #009eff;
+  }
+  .proj-chart .col-lg-8 {
+    border: 5px solid #009eff;
+  }
+  .proj-chart .col-lg-4 {
+    border: 5px solid #009eff;
+  }
+  .proj-chart .col-lg-3 {
+    border: 15px solid #009eff;
+    border-left: 5px solid #009eff;
+  }
+  .proj-chart .btn-homo:hover {
+    color: #009eff;
+    cursor: pointer;
+  }
+}
+
+/* Color for web */
+.title-color {
+  color: #009eff; /* color for all Title sections*/
+}
+
+.title-color-second {
+  color: #ddf3f9; /* color second for some Title sections*/
+}
+
+.bg-header-footer {
+  background-color: #256d84; /* background color for header and footer*/
+}
+
+.bg-color-primary {
+  background-color: #b9f0f9; /* background color primary*/
+}
+
+.bg-color-secondary {
+  background-color: #eafdfc; /* background color secondary*/
+}
+
+.text-color-primary {
+  color: #3c2317; /* text color primary*/
+}
+
+.text-color-second {
+  color: #256d84;
+}
+
+.text-color-third {
+  color: #eafdfc;
+}
